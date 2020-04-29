@@ -73,7 +73,7 @@ class App extends Component {
 
   onSubmit =() =>{
     this.setState({imageurl: this.state.input});
-    fetch('https://braniac-theallmighty.herokuapp.com/image', {
+    fetch('https://thawing-crag-00706.herokuapp.com/image', {
             method: 'post',
             headers : {
                 'Content-type' : 'application/json'
